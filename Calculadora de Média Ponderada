@@ -1,0 +1,8 @@
+print("Bem vindo ao calculador de media ponderada")
+nota1 = int(input("Favor, insira a nota da primeira prova: "))
+nota2 = int(input("Agora, insira a nota da segunda prova: "))
+print("Agora, iremos checar os pesos destas notas")
+peso1 = int(input("Insira o peso da primeira prova: "))
+peso2 = int(input("Insira o peso da segunda prova: "))
+media1 = ((nota1 * peso1) + (nota2 * peso2)) / (peso1+peso2)
+print('A media ponderada das notas é:',media1)
